@@ -2,8 +2,8 @@
 
 For package install
 
-                npm install      
+                $ npm install      
                 
 Run
 
-                npm start
+                $ npm start
