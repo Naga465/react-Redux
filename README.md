@@ -1,9 +1,8 @@
 # react-Redux
 
-installing the packages
+For package install
 
-                npm install
-                
+                npm install      
                 
 Run
 
