@@ -4,7 +4,7 @@ import { products} from '../product-list'
 
 const initialstate =  {
     prodData :products,
-    pricingInfo :{} 
+    upProdData :[]
 }
 
 export default function(state = initialstate , action){
@@ -13,7 +13,7 @@ export default function(state = initialstate , action){
         case UPDATE_PRODUCTS :
             return {
                 ...state,
-                prodData : action.payload
+                upProdData : action.payload
             }
         default:
             return state;
